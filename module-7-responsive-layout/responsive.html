@@ -4,81 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Website Layout</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+        }
+        .box{
+            border: 1px solid lightblue;
+            text-align: center;
+        }
+
+        /* Media query */
+        /* Small device */
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        /* Medium device */
+        @media screen and (min-width: 577px) and (max-width: 1000px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- .container>.html-css*12>img[src="images/html-css.png"]+h3{Food Item - $}+p{Price: \$$00}+p>lorem20 -->
+    <!-- .container>.box*12>img[src="images/html-css-logo.png"]+h3{Food Item - $}+p{Price: \$$00}+p>lorem20 -->
     <div class="container">
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 1</h3>
             <p>Price: $100</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea veritatis quos suscipit aspernatur maiores voluptatem earum fugiat nihil. Voluptate, iure!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad soluta laborum, sunt tempore dolor sapiente, possimus odio voluptas a fuga cumque esse?</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 2</h3>
             <p>Price: $200</p>
-            <p>Corrupti ullam illum ut esse laboriosam optio magnam. Incidunt sit voluptatem eos quae praesentium vel aut est magni aspernatur ratione!</p>
+            <p>Debitis reprehenderit itaque repellendus perspiciatis reiciendis ipsa accusantium consequatur minima sit, molestias sint enim laboriosam odio recusandae, praesentium cumque possimus, eveniet sapiente.</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 3</h3>
             <p>Price: $300</p>
-            <p>Consequuntur, quod dolores in assumenda corrupti numquam odit quo id placeat provident tempore totam sint, consequatur nulla nobis rerum magni!</p>
+            <p>Aspernatur ex placeat natus tenetur eligendi magnam totam sint officiis laborum, sequi ratione dolor dolore quo doloremque provident maxime similique consequuntur commodi?</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 4</h3>
             <p>Price: $400</p>
-            <p>Numquam et, adipisci cumque quos culpa eos, vel unde eligendi facere officiis qui, perferendis suscipit tempora quibusdam officia nobis tenetur.</p>
+            <p>Nesciunt officiis, fugit ipsa incidunt tempore aspernatur quidem error reprehenderit fugiat iure voluptatem delectus corporis aliquid labore rerum dolorem, ea excepturi harum?</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 5</h3>
             <p>Price: $500</p>
-            <p>Voluptatibus excepturi labore id aspernatur, hic unde rerum, facilis ad libero et officia quasi perferendis veritatis. Officia neque aspernatur accusamus?</p>
+            <p>Recusandae impedit voluptatibus debitis corrupti culpa? Ab quisquam exercitationem modi ullam asperiores laboriosam ea fugit, nostrum, numquam doloribus quidem sunt impedit nihil.</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 6</h3>
             <p>Price: $600</p>
-            <p>Aperiam sit corrupti tenetur quaerat non porro aliquid temporibus rerum, blanditiis pariatur quis itaque aliquam ad quae veritatis omnis nobis!</p>
+            <p>Veritatis vitae non, possimus tenetur qui voluptas accusamus quae ratione ipsum rerum iure voluptatum. Magnam odit nulla laborum officiis, alias harum amet.</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 7</h3>
             <p>Price: $700</p>
-            <p>Iste, veritatis quaerat distinctio dicta quos totam exercitationem magni molestiae, quam debitis, commodi laborum. Adipisci, architecto commodi. Aliquam, ullam animi.</p>
+            <p>Nesciunt vero consequatur culpa incidunt maxime doloribus quisquam molestiae, quo numquam ex labore dicta earum placeat. Maxime tenetur deserunt voluptas ea dignissimos.</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 8</h3>
             <p>Price: $800</p>
-            <p>Consequuntur excepturi eligendi ea totam aliquam debitis exercitationem voluptatem sint sed quam eaque assumenda, quas labore a architecto aliquid modi!</p>
+            <p>Atque repellat sequi error mollitia distinctio aut quod quos quaerat. Asperiores magnam velit tempora beatae voluptates minima eveniet excepturi harum itaque quam!</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 9</h3>
             <p>Price: $900</p>
-            <p>Nam assumenda natus veniam itaque? Id cumque consectetur dolorem nobis magnam repellendus hic, quia deleniti delectus dolorum facere aspernatur eum.</p>
+            <p>Quisquam eaque, placeat laboriosam voluptatibus tempora quia sit aspernatur dolorum quidem. Fuga neque officiis sint minima! Fugiat, repudiandae debitis! Similique, natus quas.</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 10</h3>
             <p>Price: $1000</p>
-            <p>Vero, facilis inventore. Iste nostrum repellat soluta error. Eveniet cupiditate accusantium voluptas nostrum natus blanditiis rerum, voluptatem magnam doloribus tempora.</p>
+            <p>Ea eos sapiente officia eveniet. Quasi culpa praesentium atque sint sed eveniet quia aut dignissimos, amet nihil esse asperiores architecto a incidunt.</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 11</h3>
             <p>Price: $1100</p>
-            <p>Animi reprehenderit quidem asperiores a numquam, eum veniam delectus architecto quisquam omnis sapiente consequuntur repudiandae sequi, voluptate fugiat ducimus! Eum?</p>
+            <p>Non sit repudiandae quasi fugiat vero? Labore dolorum debitis odio quas, at dolores fugiat aliquid nemo vel maiores. Perspiciatis, consequuntur enim! Dolorum?</p>
         </div>
-        <div class="html-css">
-            <img src="images/html-css.png" alt="">
+        <div class="box">
+            <img src="images/html-css-logo.png" alt="">
             <h3>Food Item - 12</h3>
             <p>Price: $1200</p>
-            <p>Reprehenderit ex in aut fugit perspiciatis eveniet, commodi, asperiores ut, consequatur recusandae quam aliquam exercitationem! Accusamus expedita ab totam beatae.</p>
+            <p>Veniam aut temporibus, similique consectetur consequuntur quia fuga omnis, accusantium molestias obcaecati sapiente impedit quis ipsum repellendus architecto corrupti a? Eveniet, cupiditate!</p>
         </div>
     </div>
 </body>
