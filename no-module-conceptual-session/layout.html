@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .grid-container{
+            display: grid;
+            height: 100vh;
+            gap: 5px;
+
+        }
+        .grid-1{
+            background-color: gray;
+            grid-column: 1/13;
+        }
+        .grid-2{
+            background-color: rgb(252, 45, 45);
+            grid-column: 1/4;
+            grid-row: 2/12;
+        }
+        .grid-3{
+            background-color: tomato;
+            grid-column: 4/13;
+        }
+        .grid-4{
+            background-color: rgb(30, 114, 231);
+            grid-column: 4/7;
+            grid-row: 3/12;
+        }
+        .grid-5{
+            background-color: rgb(191, 235, 16);
+            grid-column: 7/10;
+            grid-row: 3/12;
+        }
+        .grid-6{
+            background-color: rgb(48, 20, 161);
+            grid-column: 10/13;
+            grid-row: 3/12;
+        }
+        .grid-7{
+            background-color: rgb(59, 180, 3);
+            grid-column: 1/13;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item grid-1">Grid-1</div>
+        <div class="grid-item grid-2">Grid-2</div>
+        <div class="grid-item grid-3">Grid-3</div>
+        <div class="grid-item grid-4">Grid-4</div>
+        <div class="grid-item grid-5">Grid-5</div>
+        <div class="grid-item grid-6">Grid-6</div>
+        <div class="grid-item grid-7">Grid-7</div>
+    </div>
+</body>
+</html>
